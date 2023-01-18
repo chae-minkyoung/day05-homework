@@ -1,3 +1,5 @@
-#8.11
-odd_number ={number for number in range(10)if number%2==1}
-print(odd_number)
+#8.12
+generator=(i for i in range(10))
+for k in generator:
+    print('Got',k)
+
