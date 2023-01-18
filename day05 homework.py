@@ -1,5 +1,6 @@
-#8.12
-generator=(i for i in range(10))
-for k in generator:
-    print('Got',k)
+#9.1
+def good():
+    return ['Harry','Ron','Hermione']
+print(good())
+
 
